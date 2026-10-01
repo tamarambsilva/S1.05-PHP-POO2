@@ -23,50 +23,24 @@ class Animal
 
 
     // Método para obtener el nombre
-    public function getNombre()
+    public function getName()
     {
         return $this->nombre;
     }
 
 
     // Método general para hablar
-    public function hablar()
+    public function talk()
     {
-        return "El animal hace un sonido.";
-    }
-}
-
-
-class Perro extends Animal
-{
-    // Sobrescribimos el método hablar()
-    public function hablar()
-    {
-        return "Auau";
+        return "the animal has a sound";
     }
 }
 
 
 
-class Gato extends Animal
-{
-    // Sobrescribimos el método hablar()
-    public function hablar()
-    {
-        return "Miau";
-    }
-}
-
-
-$perro = new Perro("Perro1");
-$gato = new Gato("Gato1");
 
 
 
-echo "Nombre: " . $perro->getNombre() . PHP_EOL;
-echo "Sonido: " . $perro->hablar() . PHP_EOL;
 
-echo PHP_EOL;
 
-echo "Nombre: " . $gato->getNombre() . PHP_EOL;
-echo "Sonido: " . $gato->hablar() . PHP_EOL;
+
