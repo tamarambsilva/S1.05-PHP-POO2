@@ -12,13 +12,13 @@
 class Animal
 {
     // Nombre del animal
-    private $nombre;
+    private string $name;
 
 
     // Constructor
-    public function __construct($nombre)
+    public function __construct(string $name)
     {
-        $this->nombre = $nombre;
+        $this->name = $name;
     }
 
 
