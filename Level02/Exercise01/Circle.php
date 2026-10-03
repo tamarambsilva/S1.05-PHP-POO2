@@ -4,7 +4,7 @@ class Circle extends Shape {
 
 public $radius;
 
-public function __construct($radius){
+public function __construct(float $radius){
 
 $this->radius = $radius;
 

@@ -7,12 +7,12 @@
 
 abstract class Shape
 {
-    public $width;
-    public $height;
-    public $radius;
+    public float $width;
+    public float $height;
+    public float $radius;
 
     // Constructor
-    public function __construct($width, $height,)
+    public function __construct(float $width, float $height,)
     {
         $this->width = $width;
         $this->height = $height;
