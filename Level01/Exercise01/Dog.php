@@ -3,8 +3,9 @@
 class Dog extends Animal
 {
     // Sobrescribimos el método hablar()
-    public function talk()
+   public function talk(): string
     {
         return "Auau";
     }
 }
+

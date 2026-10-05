@@ -9,7 +9,7 @@
 
 
 
-class Animal
+abstract class Animal
 {
     // Nombre del animal
     private string $name;
@@ -25,15 +25,12 @@ class Animal
     // Método para obtener el nombre
     public function getName()
     {
-        return $this->nombre;
+        return $this->name;
     }
 
 
     // Método general para hablar
-    public function talk()
-    {
-        return "the animal has a sound";
-    }
+  abstract public function talk();
 }
 
 

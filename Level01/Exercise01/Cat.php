@@ -3,7 +3,7 @@
 class Cat extends Animal
 {
     // Sobrescribimos el método hablar()
-    public function talk()
+    public function talk(): string
     {
         return "Miau";
     }
